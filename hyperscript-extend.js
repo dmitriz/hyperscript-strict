@@ -1,5 +1,4 @@
-// Extend with single object API
-
+// Extend hyperscript to the single object API
 var h = require('hyperscript')
 
 var isObject = val => (null != val) && ('object' == typeof val) 
