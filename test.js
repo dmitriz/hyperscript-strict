@@ -1,5 +1,5 @@
-// var h = require('hyperscript')
-var h = require('./hyperscript-extend')
+var extender = require('./hyperscript-extend')
+var h = extender(require('hyperscript'))
 var test = require('ava')
 
 test('empty valid args', t=>{
