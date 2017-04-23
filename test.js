@@ -1,4 +1,5 @@
-var h = require('hyperscript')
+// var h = require('hyperscript')
+var h = require('./hyperscript-extend')
 var test = require('ava')
 
 test('empty valid args', t=>{
@@ -33,3 +34,4 @@ test('sets styles', t=>{
 	var style = {'color': 'red'}
   t.is(h('p', {style}, []).outerHTML, '<p style="color:red;"></p>')
 })
+
