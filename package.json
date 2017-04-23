@@ -18,6 +18,9 @@
   "devDependencies": {
     "ava": "^0.19.1"
   },
+  "ava": {
+    "files": "**/*test.js"
+  },
   "dependencies": {
     "hyperscript": "^2.0.2",
     "snabbdom": "^0.6.7"
