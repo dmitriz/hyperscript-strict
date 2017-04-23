@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "name": "hyperscript-strict",
+  "main": "index.js",
+  "description": "Strict API for HyperScript Libraries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriz/hyperscript-strict"
+  },
+  "scripts": {
+    "test": "ava -w"
+  },
+  "keywords": [
+    "hyperscript"
+  ],
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "dependencies": {
+    "hyperscript": "^2.0.2",
+    "snabbdom": "^0.6.7"
+  }
+}
