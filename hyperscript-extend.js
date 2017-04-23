@@ -3,11 +3,11 @@ var h = require('hyperscript')
 
 var isObject = val => (null != val) && ('object' == typeof val) 
 
-var hExt = (obj, props, children) => isObject(obj) 
+var hExt = (obj, ...rest) => isObject(obj) 
 	? h(obj.tag, obj.props, obj.children.map(child => isObject(child) 
 		? hExt(child) 
 		: child
 	))
-	: h(obj, props, children)
+	: h(obj, ...rest)
 
 module.exports = hExt
