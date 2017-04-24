@@ -2,11 +2,11 @@
 
 var isObject = val => (null != val) && ('object' == typeof val) 
 
-var hExt = h => (obj, ...rest) => isObject(obj) 
+var extend = h => (obj, ...rest) => isObject(obj) 
 	? h(obj.tag, obj.props, obj.children.map(child => isObject(child) 
-			? hExt(h)(child) 
+			? extend(h)(child) 
 			: child
 		))
 	: h(obj, ...rest)
 
-module.exports = hExt
+module.exports = extend
