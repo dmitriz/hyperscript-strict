@@ -16,7 +16,7 @@
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT",
   "devDependencies": {
-    "ava": "0.19.1"
+    "ava": "1.4.1"
   },
   "ava": {
     "files": "**/*test.js"
