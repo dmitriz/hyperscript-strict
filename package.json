@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "hyperscript": "^2.0.2",
-    "snabbdom": "^0.6.7"
+    "snabbdom": "^0.7.0"
   }
 }
