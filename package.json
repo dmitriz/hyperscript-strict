@@ -20,7 +20,7 @@
     "files": "**/*test.js"
   },
   "dependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.0.0",
     "hyperscript": "^2.0.2",
     "snabbdom": "^0.7.0"
   }
