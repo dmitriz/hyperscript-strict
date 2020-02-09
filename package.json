@@ -16,9 +16,6 @@
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT",
   "devDependencies": {},
-  "ava": {
-    "files": "**/*test.js"
-  },
   "dependencies": {
     "ava": "^2.0.0",
     "hyperscript": "^2.0.2",
