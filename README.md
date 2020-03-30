@@ -1,6 +1,6 @@
 # hyperscript-strict
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/dmitriz/hyperscript-strict.svg)](https://greenkeeper.io/)
+
 
 Strict API for Hyperscript Libraries
 
