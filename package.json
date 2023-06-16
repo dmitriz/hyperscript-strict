@@ -16,7 +16,7 @@
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT",
   "devDependencies": {
-    "ava": "3.12.1"
+    "ava": "5.3.1"
   },
   "dependencies": {
     "hyperscript": "^2.0.2",
